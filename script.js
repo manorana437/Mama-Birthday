@@ -6,7 +6,7 @@ const soundBtn=document.getElementById("soundBtn");
 let step=1,musicStarted=false,paused=false;
 
 const photos=[
- {src:"mama-1.jpg",quote:"Mama, aap jaisi koi nahi. Aapke bina zindagi adhuri hai. Happy Birthday to my everything! 💕"},
+ {src:"mama-1.jpg",quote:"Mama, aap meri zindagi ki sabse badi nemat ho. Aapke bina kuch bhi mumkin nahi. Happy Birthday to the most amazing mom in the world! ❤️"},
  {src:"mama-2.jpg",quote:"Mama, aap jaisi koi nahi. Aapke bina zindagi adhuri hai. Happy Birthday to my everything! 💕"},
  {src:"mama-3.jpg",quote:"I love u MeRi Moto MeRi JannaT"}
 ];
