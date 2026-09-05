@@ -6,9 +6,9 @@ const soundBtn=document.getElementById("soundBtn");
 let step=1,musicStarted=false,paused=false;
 
 const photos=[
- {src:"assets/mama-1.jpg",quote:"Mama, aap jaisi koi nahi. Aapke bina zindagi adhuri hai. Happy Birthday to my everything! 💕"},
- {src:"assets/mama-2.jpg",quote:"Mama, aap jaisi koi nahi. Aapke bina zindagi adhuri hai. Happy Birthday to my everything! 💕"},
- {src:"assets/mama-3.jpg",quote:"I love u MeRi Moto MeRi JannaT"}
+ {src:"mama-1.jpg",quote:"Mama, aap jaisi koi nahi. Aapke bina zindagi adhuri hai. Happy Birthday to my everything! 💕"},
+ {src:"mama-2.jpg",quote:"Mama, aap jaisi koi nahi. Aapke bina zindagi adhuri hai. Happy Birthday to my everything! 💕"},
+ {src:"mama-3.jpg",quote:"I love u MeRi Moto MeRi JannaT"}
 ];
 
 function update(){progressBar.style.width=`${step/8*100}%`;stepLabel.textContent=`${String(step).padStart(2,"0")} / 08`}
